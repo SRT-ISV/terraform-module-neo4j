@@ -1,5 +1,5 @@
 terraform {
-  required_version = ">= 1.13.4"
+  required_version = ">= 1.5.7"
   required_providers {
     neo4jaura = {
       source  = "neo4j-labs/neo4jaura"
@@ -7,11 +7,11 @@ terraform {
      }
     google = {
       source  = "hashicorp/google"
-      version = ">= 4.64, < 8"
+      version = ">= 5.41, < 8"
      }
     google-beta = {
       source  = "hashicorp/google-beta"
-      version = ">= 4.64, < 8"
+      version = ">= 5.41, < 8"
      } 
   }
 }
